@@ -1,0 +1,16 @@
+{
+  "name": "eth-balance-checker",
+  "version": "1.0.0",
+  "main": "R.js",
+  "scripts": {
+    "start": "node R.js"
+  },
+  "dependencies": {
+    "ethers": "^5.0.0"
+  },
+  "pkg": {
+    "assets": [
+      "config.json"
+    ]
+  }
+}
